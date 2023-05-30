@@ -1,0 +1,120 @@
+.container {
+  #banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    height: 400px;
+  }
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .banner-info {
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: end;
+      border: 2px dashed navy;
+      background: white;
+      opacity: .8;
+      .title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        color: navy;
+        margin-bottom: 24px;
+      }
+      .desc-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px;
+        .desc-item {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 22px;
+          color: navy;
+        }
+      }
+      .btn-banner {
+        background: #ed1c24;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 24px;
+        .icon {
+          margin-right: 8px;
+        }
+        .phone-number {
+          font-weight: 500;
+        }
+      }
+      .list-social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .social-media-item {
+          background: aqua;
+          padding: 10px;
+          border-radius: 10px;
+          text-decoration: none;
+          &:not(:last-child) {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
+  .desc {
+    margin-top: 24px;
+    .title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #DFE1E6;
+      margin-bottom: 24px;
+      .text {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        color: navy;
+        margin-bottom: 12px;
+      }
+      .value {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 22px;
+        color: navy;
+      }
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #222222;
+      }
+      .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .text {
+          margin-right: 24px;
+        }
+      }
+    }
+  }
+}
