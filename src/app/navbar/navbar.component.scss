@@ -1,0 +1,35 @@
+:host {
+  padding: 0;
+  //position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  z-index: 500;
+  margin-bottom: 56px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 1px solid #DFE1E6;
+  .logo {
+    width: 20%;
+    img {
+      width: 70px;
+    }
+  }
+  .navbar-main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .navbar-left {
+    width: 20%;
+    text-align: end;
+  }
+}
