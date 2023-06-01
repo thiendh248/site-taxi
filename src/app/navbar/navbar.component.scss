@@ -27,6 +27,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    .navbar-item {
+      color: #001952;
+      font-weight: 700;
+    }
   }
   .navbar-left {
     width: 20%;

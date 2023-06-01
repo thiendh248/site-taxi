@@ -6,3 +6,65 @@
   height: 56px;
   z-index: 500;
 }
+.footer-wrapper {
+  .footer-title {
+    background-color: rgb(20, 110, 190);
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 120%;
+      color: white;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+    .desc {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: white;
+      text-align: center;
+    }
+  }
+  .footer-info {
+    background-color: rgb(30, 48, 80);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 36px;
+    .info-value {
+      span {
+        display: block;
+      }
+      .name {
+        color: #ffd43b;
+        font-weight: 700;
+        font-size: 26px;
+      }
+    }
+    .social-info {
+      display: flex;
+      flex-direction: column;
+      .btn-footer {
+        padding: 10px;
+        border: 2px solid #ffd43b;
+        border-radius: 20px;
+        color: #ffd43b;
+        .icon {
+          margin-right: 10px;
+        }
+        .phone-number {
+          font-size: 19px;
+          font-weight: 700;
+          color: #ffd43b;
+
+        }
+      }
+    }
+  }
+}
