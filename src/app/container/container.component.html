@@ -397,4 +397,89 @@
       </div>
     </div>
   </div>
+  <div class="order-group" style="margin-top: 24px">
+    <div class="container order">
+      <div class="order-left">
+        <img width="100%" src="./content/images/banner.png" alt="" />
+        <span class="title">Đặt xe trực tuyến ngay hôm nay</span>
+        <span class="desc"
+          >Đặt xe du lịch tham quan các điểm Đà Nẵng – Hội An, đón tiễn sân bay,
+          xe 1 chiều… cực đơn giản</span
+        >
+        <a class="btn-footer" href="tel:0935850076">
+          <span class="icon fa-solid fa-phone"></span>
+          <span class="phone-number">0935 850 076</span>
+        </a>
+      </div>
+      <div class="order-right">
+        <form>
+          <div class="form-group row">
+            <div class="col-sm-12">
+              <input placeholder="Họ & Tên" class="form-control" />
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Số điện thoại"
+              />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email" />
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nơi đón" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nơi đến" />
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col">
+              <select class="form-control">
+                <option [defaultSelected]="true">Chọn loại xe</option>
+                <option>SEDEN 4 chỗ</option>
+                <option>SUV 7 chỗ</option>
+                <option>VAN 16 chỗ</option>
+              </select>
+            </div>
+            <div class="col">
+              <select class="form-control">
+                <option [defaultSelected]="true">Chọn chiều đi</option>
+                <option>1 chiều</option>
+                <option>2 chiều</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-12">
+              <input type="date" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-12">
+              <textarea
+                class="form-control"
+                placeholder="Bạn có muốn chúng tôi giúp gì không? (VD: số hiệu chuyến bay, đến sớm 15 phút)"
+                aria-label="With textarea"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row" style="justify-content: center">
+            <button
+              type="submit"
+              style="text-align: center"
+              class="btn btn-danger"
+            >
+              Đặt xe ngay
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>

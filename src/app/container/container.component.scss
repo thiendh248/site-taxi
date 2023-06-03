@@ -1,5 +1,4 @@
 .container-body {
-  margin-bottom: 24px;
   #banner {
     background-repeat: no-repeat;
     background-position: center center;
@@ -20,7 +19,7 @@
       justify-content: end;
       border: 2px dashed navy;
       background: white;
-      opacity: .8;
+      opacity: 0.8;
       .title {
         font-weight: 700;
         font-size: 32px;
@@ -61,7 +60,7 @@
         justify-content: space-between;
         align-items: center;
         .social-media-item {
-          background: rgb(20, 110, 190);;
+          background: rgb(20, 110, 190);
           padding: 10px;
           border-radius: 10px;
           text-decoration: none;
@@ -81,7 +80,7 @@
       justify-content: center;
       align-items: center;
       padding-bottom: 24px;
-      border-bottom: 1px solid #DFE1E6;
+      border-bottom: 1px solid #dfe1e6;
       margin-bottom: 24px;
       .text {
         font-weight: 700;
@@ -142,7 +141,8 @@
     .price-item {
       padding: 24px;
       background: #ffffff;
-      box-shadow: 0 3px 6px -4px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+      box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.16),
+        0 3px 6px rgba(0, 0, 0, 0.23);
       border-radius: 12px;
       margin-right: 15px;
       margin-left: 15px;
@@ -183,7 +183,8 @@
         table {
           width: 100%;
         }
-        td, th {
+        td,
+        th {
           padding: 8px;
         }
         tr:nth-child(even) {
@@ -214,6 +215,48 @@
             font-weight: 500;
           }
         }
+      }
+    }
+  }
+  .order-group {
+    background-color: rgb(47, 116, 169);
+    .order {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .order-left {
+        flex: 1;
+        .title {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 26px;
+          color: yellow;
+          display: block;
+          margin-bottom: 12px;
+        }
+        .desc {
+          color: white;
+          display: block;
+          margin-bottom: 12px;
+        }
+        .btn-footer {
+          padding: 10px;
+          border: 2px solid #ffd43b;
+          border-radius: 20px;
+          color: #ffd43b;
+          .icon {
+            margin-right: 10px;
+          }
+          .phone-number {
+            font-size: 19px;
+            font-weight: 700;
+            color: #ffd43b;
+          }
+        }
+      }
+      .order-right {
+        flex: 1;
+        padding: 20px;
       }
     }
   }

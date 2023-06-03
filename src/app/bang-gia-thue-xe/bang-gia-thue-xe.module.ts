@@ -6,5 +6,6 @@ import { BangGiaThueXeRoutinngModule } from './bang-gia-thue-xe-routinng.module'
 @NgModule({
   imports: [RouterOutlet, RouterLink, BangGiaThueXeRoutinngModule],
   declarations: [BangGiaThueXeComponent],
+  exports: [BangGiaThueXeComponent],
 })
 export class BangGiaThueXeModule {}
