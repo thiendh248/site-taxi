@@ -1,17 +1,101 @@
-<div class="navbar container">
+<div *ngIf="!mobileView" class="navbar container">
   <div class="logo">
     <img src="./content/images/logo.jpeg" alt="" />
   </div>
   <div class="navbar-main">
-    <div class="navbar-item" routerLink="">
-      <span class="fa-solid fa-house"></span>
+    <div class="navbar-item" routerLink="/home" [routerLinkActive]="'active'">
+      <span style="margin-right: 5px" class="fa-solid fa-house"></span>
       <span>HOME</span>
     </div>
-    <div class="navbar-item" routerLink="bang-gia-thue-xe">
+    <div
+      class="navbar-item"
+      routerLink="bang-gia-thue-xe"
+      [routerLinkActive]="'active'"
+    >
       BẢNG GIÁ THUÊ XE
     </div>
-    <div class="navbar-item" routerLink="gioi-thieu">GIỚI THIỆU</div>
-    <div class="navbar-item" routerLink="dat-xe">ĐẶT XE</div>
+    <div
+      class="navbar-item"
+      routerLink="gioi-thieu"
+      [routerLinkActive]="'active'"
+    >
+      GIỚI THIỆU
+    </div>
+    <div class="navbar-item" routerLink="dat-xe" [routerLinkActive]="'active'">
+      ĐẶT XE
+    </div>
   </div>
   <div class="navbar-left"></div>
+</div>
+<div *ngIf="mobileView" class="container navbar-mobile">
+  <div class="left" (click)="onHideMenuBarMobile()">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+  <div class="logo">
+    <img src="./content/images/logo.jpeg" alt="" />
+  </div>
+  <div class="right"></div>
+</div>
+<div
+  *ngIf="mobileView"
+  class="navbar-main-mobile"
+  [class.active]="isOpenMenuBarMobile"
+>
+  <div class="list-action">
+    <div
+      class="navbar-item"
+      (click)="onHideMenuBarMobile()"
+      routerLink="/home"
+      [routerLinkActive]="'active'"
+    >
+      <span style="margin-right: 5px" class="fa-solid fa-house"></span>
+      <span>HOME</span>
+    </div>
+    <div
+      class="navbar-item"
+      routerLink="bang-gia-thue-xe"
+      [routerLinkActive]="'active'"
+      (click)="onHideMenuBarMobile()"
+    >
+      BẢNG GIÁ THUÊ XE
+    </div>
+    <div
+      class="navbar-item"
+      routerLink="gioi-thieu"
+      [routerLinkActive]="'active'"
+      (click)="onHideMenuBarMobile()"
+    >
+      GIỚI THIỆU
+    </div>
+    <div
+      class="navbar-item"
+      routerLink="dat-xe"
+      [routerLinkActive]="'active'"
+      (click)="onHideMenuBarMobile()"
+    >
+      ĐẶT XE
+    </div>
+  </div>
+  <div class="close-menubar">
+    <svg
+      (click)="onHideMenuBarMobile()"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_350_14708)">
+        <path
+          d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"
+          fill="#4F4F4F"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_350_14708">
+          <rect width="24" height="24" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  </div>
 </div>

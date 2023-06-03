@@ -7,7 +7,7 @@ import { ContainerComponent } from './container/container.component';
     RouterModule.forRoot(
       [
         {
-          path: '',
+          path: 'home',
           component: ContainerComponent,
         },
         {
