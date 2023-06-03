@@ -18,5 +18,6 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [BrowserModule, NgOptimizedImage, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
+  exports: [FooterComponent],
 })
 export class AppModule {}
