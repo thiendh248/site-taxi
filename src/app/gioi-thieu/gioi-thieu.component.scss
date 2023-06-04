@@ -3,7 +3,7 @@
   .note {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 56px;
     margin-bottom: 20px;
     .detail {
       flex: 1;
@@ -104,6 +104,21 @@
     }
     .map-detail {
       margin-top: 20px;
+    }
+  }
+  &.gioi-thieu-mobile {
+    .note {
+      display: flex;
+      flex-direction: column;
+    }
+    .benefits {
+      .list-benefits {
+        display: flex;
+        flex-direction: column;
+        .item {
+          border-right: unset;
+        }
+      }
     }
   }
 }

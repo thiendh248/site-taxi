@@ -1,7 +1,12 @@
-<div class="container-body">
+<div class="container-body" [class.container-body-mobile]="mobileView">
   <div id="banner" class="banner">
     <div class="banner-info">
-      <span class="title">Sân bay Đà Nẵng - Hội An</span>
+      <span *ngIf="mobileView" style="text-align: center" class="title"
+        >Sân bay <br />
+        Đà Nẵng - Hội An</span
+      >
+      <span *ngIf="!mobileView" class="title">Sân bay Đà Nẵng - Hội An</span>
+
       <div class="desc-group">
         <span class="desc-item">Đưa đón và khứ hồi.</span>
         <span class="desc-item">Đặt lịch trước & thanh toán sau.</span>
@@ -12,7 +17,7 @@
       </div>
       <a class="btn-banner" href="tel:0935850076">
         <span class="icon fa-solid fa-phone"></span>
-        <span class="phone-number">0935850076</span>
+        <span class="phone-number">0935 850 076</span>
       </a>
       <div class="list-social-media">
         <a href="https://zalo.me/0935850076" class="social-media-item">ZALO</a>
@@ -24,7 +29,14 @@
   <div class="container">
     <div class="desc">
       <div class="title">
-        <span class="text">Dịch vụ thuê xe Đà Nẵng - Hội An giá rẻ</span>
+        <span *ngIf="mobileView" class="text" style="text-align: center"
+          >Dịch vụ thuê xe <br />
+          Đà Nẵng - Hội An <br />
+          giá rẻ</span
+        >
+        <span *ngIf="!mobileView" class="text"
+          >Dịch vụ thuê xe Đà Nẵng - Hội An giá rẻ</span
+        >
         <span class="value">www.xehoiandanang.vn</span>
       </div>
       <div class="contact">
@@ -36,14 +48,18 @@
           <div class="text">Gọi để đặt xe:</div>
           <a class="btn-phone" href="tel:0935850076">
             <span class="icon fa-solid fa-phone"></span>
-            <span class="phone-number">0935850076</span>
+            <span class="phone-number">0935 850 076</span>
           </a>
           <button style="display: none">Đặt xe online</button>
         </div>
       </div>
     </div>
     <div class="price-list row">
-      <div class="price-item col">
+      <div
+        [class.price-item-mobile]="mobileView"
+        class="price-item col"
+        [style]="mobileView ? 'margin-bottom: 24px' : ''"
+      >
         <div class="header">
           <div class="destination">
             <span class="text">XE ĐÀ NẴNG</span>
@@ -82,11 +98,11 @@
         <div class="action">
           <a class="btn-phone" href="tel:0935850076">
             <span class="icon fa-solid fa-phone"></span>
-            <span class="phone-number">0935850076</span>
+            <span class="phone-number">0935 850 076</span>
           </a>
         </div>
       </div>
-      <div class="price-item col">
+      <div [class.price-item-mobile]="mobileView" class="price-item col">
         <div class="header">
           <div class="destination">
             <span class="text">XE ĐÀ NẴNG</span>
@@ -125,13 +141,17 @@
         <div class="action">
           <a class="btn-phone" href="tel:0935850076">
             <span class="icon fa-solid fa-phone"></span>
-            <span class="phone-number">0935850076</span>
+            <span class="phone-number">0935 850 076</span>
           </a>
         </div>
       </div>
     </div>
     <div class="price-list row">
-      <div class="price-item col">
+      <div
+        class="price-item col"
+        [class.price-item-mobile]="mobileView"
+        [style]="mobileView ? 'margin-bottom: 24px' : ''"
+      >
         <div class="header">
           <div class="destination">
             <span class="text">XE HỘI AN</span>
@@ -200,11 +220,11 @@
         <div class="action">
           <a class="btn-phone" href="tel:0935850076">
             <span class="icon fa-solid fa-phone"></span>
-            <span class="phone-number">0935850076</span>
+            <span class="phone-number">0935 850 076</span>
           </a>
         </div>
       </div>
-      <div class="price-item col">
+      <div class="price-item col" [class.price-item-mobile]="mobileView">
         <div class="header">
           <div class="destination">
             <span class="text">XE ĐÀ NẴNG</span>
@@ -274,13 +294,17 @@
         <div class="action">
           <a class="btn-phone" href="tel:0935850076">
             <span class="icon fa-solid fa-phone"></span>
-            <span class="phone-number">0935850076</span>
+            <span class="phone-number">0935 850 076</span>
           </a>
         </div>
       </div>
     </div>
     <div class="price-list row">
-      <div class="price-item col">
+      <div
+        class="price-item col"
+        [class.price-item-mobile]="mobileView"
+        [style]="mobileView ? 'margin-bottom: 24px' : ''"
+      >
         <div class="header">
           <div class="destination">
             <span class="text">XE HỘI AN</span>
@@ -349,11 +373,11 @@
         <div class="action">
           <a class="btn-phone" href="tel:0935850076">
             <span class="icon fa-solid fa-phone"></span>
-            <span class="phone-number">0935850076</span>
+            <span class="phone-number">0935 850 076</span>
           </a>
         </div>
       </div>
-      <div class="price-item col">
+      <div class="price-item col" [class.price-item-mobile]="mobileView">
         <div class="header">
           <div class="destination">
             <span class="text">XE HỘI AN</span>
@@ -391,13 +415,17 @@
         <div class="action">
           <a class="btn-phone" href="tel:0935850076">
             <span class="icon fa-solid fa-phone"></span>
-            <span class="phone-number">0935850076</span>
+            <span class="phone-number">0935 850 076</span>
           </a>
         </div>
       </div>
     </div>
   </div>
-  <div class="order-group" style="margin-top: 24px">
+  <div
+    class="order-group"
+    [class.order-group-mobile]="mobileView"
+    style="margin-top: 24px"
+  >
     <div class="container order">
       <div class="order-left">
         <img width="100%" src="./content/images/banner.png" alt="" />
@@ -469,7 +497,10 @@
               ></textarea>
             </div>
           </div>
-          <div class="row" style="justify-content: center">
+          <div
+            class="row"
+            style="justify-content: center; margin-right: 0; margin-left: 0"
+          >
             <button
               type="submit"
               style="text-align: center"

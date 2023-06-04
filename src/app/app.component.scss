@@ -1,0 +1,108 @@
+* {
+  font-family: Inter;
+}
+.wrapper {
+  position: relative;
+  .zalo-action {
+    position: fixed;
+    bottom: 150px;
+    left: 10px;
+    .fill-action {
+      box-shadow: 0 0 0 0 #2196f3;
+      background-color: rgba(33, 150, 243, 0.7);
+      width: 65px;
+      height: 65px;
+      top: -8px;
+      left: -6px;
+      position: absolute;
+      border-radius: 50%;
+      border: 2px solid transparent;
+      -webkit-animation: phone-vr-circle-fill 2.3s infinite ease-in-out;
+      animation: phone-vr-circle-fill 2.3s infinite ease-in-out;
+      transition: all 0.5s;
+      -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-animuiion: auto 1.3s infinite;
+      animation: auto 1.3s infinite;
+    }
+    .action {
+      .img-zalo {
+        border-radius: 12px;
+        width: 50px;
+        height: 50px;
+        animation: bling-bling 1s infinite ease-in-out;
+      }
+    }
+  }
+  .phone-action {
+    position: fixed;
+    bottom: 34px;
+    left: 10px;
+    .fill-action {
+      width: 65px;
+      height: 65px;
+      bottom: -9px;
+      left: -6px;
+      position: absolute;
+      box-shadow: 0 0 0 0 #c31d1d;
+      background-color: rgba(230, 8, 8, 0.7);
+      border-radius: 50%;
+      border: 2px solid transparent;
+      -webkit-animation: phone-vr-circle-fill 2.3s infinite ease-in-out;
+      animation: phone-vr-circle-fill 2.3s infinite ease-in-out;
+      transition: all 0.5s;
+      -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-animuiion: auto 1.3s infinite;
+      animation: auto 1.3s infinite;
+    }
+    .action {
+      .img-phone {
+        border-radius: 12px;
+        width: 50px;
+        height: 50px;
+        animation: bling-bling 1s infinite ease-in-out;
+      }
+    }
+  }
+}
+
+@keyframes auto {
+  0% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 15px transparent;
+  }
+  100% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+@keyframes bling-bling {
+  0% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  10% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  20% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  30% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  40% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+}

@@ -51,6 +51,13 @@
           font-size: 16px;
         }
       }
+      &.title-wrapper-mobile {
+        display: flex;
+        flex-direction: column;
+        .title-right {
+          margin-top: 24px;
+        }
+      }
     }
   }
   .footer-info {
@@ -60,44 +67,62 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 36px;
-    .info-value {
-      span {
-        display: block;
-      }
-      .name {
-        color: #ffd43b;
-        font-weight: 700;
-        font-size: 26px;
-      }
-    }
-    .social-info {
+    .container {
+      padding: 36px;
       display: flex;
-      flex-direction: column;
-      .btn-footer {
-        padding: 10px;
-        border: 2px solid #ffd43b;
-        border-radius: 20px;
-        color: #ffd43b;
-        .icon {
-          margin-right: 10px;
+      flex-direction: row;
+      .info-value {
+        flex: 1;
+        span {
+          display: block;
         }
-        .phone-number {
-          font-size: 19px;
-          font-weight: 700;
+        .name {
           color: #ffd43b;
+          font-weight: 700;
+          font-size: 26px;
         }
       }
-      .note {
+      .social-info {
+        flex: 1;
         display: flex;
         flex-direction: column;
-        font-weight: 500;
-        font-size: 16px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        .phone-number {
-          margin-top: 10px;
+        .btn-footer {
+          padding: 10px;
+          border: 2px solid #ffd43b;
+          border-radius: 20px;
+          color: #ffd43b;
+          text-decoration: none;
+          .icon {
+            margin-right: 10px;
+          }
+          .phone-number {
+            font-size: 19px;
+            font-weight: 700;
+            color: #ffd43b;
+          }
         }
+        .note {
+          display: flex;
+          flex-direction: column;
+          font-weight: 500;
+          font-size: 16px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          .phone-number {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+    .footer-info-mobile {
+      display: flex;
+      flex-direction: column;
+      .info-value,
+      .social-info {
+        padding-bottom: 24px;
+      }
+      &.container {
+        padding: unset;
       }
     }
   }

@@ -1,4 +1,8 @@
-<div class="order-group">
+<div
+  class="order-group"
+  [class.order-group-mobile]="mobileView"
+  style="margin-top: 24px"
+>
   <div class="container order">
     <div class="order-left">
       <img width="100%" src="./content/images/banner.png" alt="" />
@@ -70,7 +74,10 @@
             ></textarea>
           </div>
         </div>
-        <div class="row" style="justify-content: center">
+        <div
+          class="row"
+          style="justify-content: center; margin-right: 0; margin-left: 0"
+        >
           <button
             type="submit"
             style="text-align: center"

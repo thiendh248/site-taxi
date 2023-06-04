@@ -1,7 +1,14 @@
 <div class="container">
   <div class="desc">
     <div class="title">
-      <span class="text">Dịch vụ thuê xe Đà Nẵng - Hội An giá rẻ</span>
+      <span *ngIf="mobileView" class="text" style="text-align: center"
+        >Dịch vụ thuê xe <br />
+        Đà Nẵng - Hội An <br />
+        giá rẻ</span
+      >
+      <span *ngIf="!mobileView" class="text"
+        >Dịch vụ thuê xe Đà Nẵng - Hội An giá rẻ</span
+      >
       <span class="value">www.xehoiandanang.vn</span>
     </div>
     <div class="contact">
@@ -13,14 +20,18 @@
         <div class="text">Gọi để đặt xe:</div>
         <a class="btn-phone" href="tel:0935850076">
           <span class="icon fa-solid fa-phone"></span>
-          <span class="phone-number">0935850076</span>
+          <span class="phone-number">0935 850 076</span>
         </a>
         <button style="display: none">Đặt xe online</button>
       </div>
     </div>
   </div>
   <div class="price-list row">
-    <div class="price-item col">
+    <div
+      [class.price-item-mobile]="mobileView"
+      class="price-item col"
+      [style]="mobileView ? 'margin-bottom: 24px' : ''"
+    >
       <div class="header">
         <div class="destination">
           <span class="text">XE ĐÀ NẴNG</span>
@@ -59,11 +70,11 @@
       <div class="action">
         <a class="btn-phone" href="tel:0935850076">
           <span class="icon fa-solid fa-phone"></span>
-          <span class="phone-number">0935850076</span>
+          <span class="phone-number">0935 850 076</span>
         </a>
       </div>
     </div>
-    <div class="price-item col">
+    <div [class.price-item-mobile]="mobileView" class="price-item col">
       <div class="header">
         <div class="destination">
           <span class="text">XE ĐÀ NẴNG</span>
@@ -102,13 +113,17 @@
       <div class="action">
         <a class="btn-phone" href="tel:0935850076">
           <span class="icon fa-solid fa-phone"></span>
-          <span class="phone-number">0935850076</span>
+          <span class="phone-number">0935 850 076</span>
         </a>
       </div>
     </div>
   </div>
   <div class="price-list row">
-    <div class="price-item col">
+    <div
+      class="price-item col"
+      [class.price-item-mobile]="mobileView"
+      [style]="mobileView ? 'margin-bottom: 24px' : ''"
+    >
       <div class="header">
         <div class="destination">
           <span class="text">XE HỘI AN</span>
@@ -171,11 +186,11 @@
       <div class="action">
         <a class="btn-phone" href="tel:0935850076">
           <span class="icon fa-solid fa-phone"></span>
-          <span class="phone-number">0935850076</span>
+          <span class="phone-number">0935 850 076</span>
         </a>
       </div>
     </div>
-    <div class="price-item col">
+    <div class="price-item col" [class.price-item-mobile]="mobileView">
       <div class="header">
         <div class="destination">
           <span class="text">XE ĐÀ NẴNG</span>
@@ -239,13 +254,17 @@
       <div class="action">
         <a class="btn-phone" href="tel:0935850076">
           <span class="icon fa-solid fa-phone"></span>
-          <span class="phone-number">0935850076</span>
+          <span class="phone-number">0935 850 076</span>
         </a>
       </div>
     </div>
   </div>
   <div class="price-list row">
-    <div class="price-item col">
+    <div
+      class="price-item col"
+      [class.price-item-mobile]="mobileView"
+      [style]="mobileView ? 'margin-bottom: 24px' : ''"
+    >
       <div class="header">
         <div class="destination">
           <span class="text">XE HỘI AN</span>
@@ -308,11 +327,11 @@
       <div class="action">
         <a class="btn-phone" href="tel:0935850076">
           <span class="icon fa-solid fa-phone"></span>
-          <span class="phone-number">0935850076</span>
+          <span class="phone-number">0935 850 076</span>
         </a>
       </div>
     </div>
-    <div class="price-item col">
+    <div class="price-item col" [class.price-item-mobile]="mobileView">
       <div class="header">
         <div class="destination">
           <span class="text">XE HỘI AN</span>
@@ -350,7 +369,7 @@
       <div class="action">
         <a class="btn-phone" href="tel:0935850076">
           <span class="icon fa-solid fa-phone"></span>
-          <span class="phone-number">0935850076</span>
+          <span class="phone-number">0935 850 076</span>
         </a>
       </div>
     </div>

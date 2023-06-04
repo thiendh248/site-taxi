@@ -1,6 +1,9 @@
 <div class="footer-wrapper">
   <div class="footer-title">
-    <div class="container title-wrapper">
+    <div
+      class="container title-wrapper"
+      [class.title-wrapper-mobile]="mobileView"
+    >
       <div class="title-left">
         <span class="title"
           >Thuê xe từ Đà nẵng đến Hội An hoặc ngược lại giá rẻ.
@@ -20,8 +23,8 @@
     </div>
   </div>
   <div class="footer-info">
-    <div class="container row">
-      <div class="info-value col-6">
+    <div class="container row" [class.footer-info-mobile]="mobileView">
+      <div class="info-value">
         <span class="name">B&M Travel</span>
         <span
           style="
@@ -37,13 +40,13 @@
           An, Quảng Nam</span
         >
         <span style="margin-bottom: 5px"
-          ><i class="fa-solid fa-phone-volume"></i> 0935850076</span
+          ><i class="fa-solid fa-phone-volume"></i> 0935 850 076</span
         >
         <span style="margin-bottom: 5px"
           ><i class="fa-solid fa-earth-asia"></i> www.xehoiandanang.vn</span
         >
       </div>
-      <div class="social-info col-6">
+      <div class="social-info">
         <div>
           <a class="btn-footer" href="tel:0935850076">
             <span class="icon fa-solid fa-phone"></span>

@@ -29,6 +29,7 @@ import { ContainerComponent } from './container/container.component';
           loadChildren: () =>
             import('./dat-xe/dat-xe.module').then((m) => m.DatXeModule),
         },
+        { path: '**', redirectTo: '/home' },
       ],
       { enableTracing: false }
     ),

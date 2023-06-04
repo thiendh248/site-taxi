@@ -216,6 +216,15 @@
           }
         }
       }
+      &.price-item-mobile {
+        .header {
+          .destination {
+            .text {
+              font-size: 14px;
+            }
+          }
+        }
+      }
     }
   }
   .order-group {
@@ -244,6 +253,7 @@
           border: 2px solid #ffd43b;
           border-radius: 20px;
           color: #ffd43b;
+          text-decoration: none;
           .icon {
             margin-right: 10px;
           }
@@ -259,5 +269,22 @@
         padding: 20px;
       }
     }
+    &.order-group-mobile {
+      .order {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 24px;
+        .order-left {
+          padding-bottom: 24px;
+        }
+        .order-right {
+          padding: unset;
+        }
+      }
+    }
+  }
+  &.container-body-mobile {
+    margin-top: 72px;
   }
 }

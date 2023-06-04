@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { DatXeRoutingModule } from './dat-xe-routing.module';
 import { DatXeComponent } from './dat-xe.component';
-import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
+import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BangGiaThueXeModule } from '../bang-gia-thue-xe/bang-gia-thue-xe.module';
 
 @NgModule({
@@ -12,6 +12,7 @@ import { BangGiaThueXeModule } from '../bang-gia-thue-xe/bang-gia-thue-xe.module
     DatXeRoutingModule,
     ReactiveFormsModule,
     BangGiaThueXeModule,
+    FormsModule,
   ],
   declarations: [DatXeComponent],
 })
