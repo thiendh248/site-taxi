@@ -119,6 +119,10 @@
       tr:first-child {
         display: none;
       }
+      tr > td:last-child {
+        color: #ed1c24;
+        font-weight: 600;
+      }
       &.table-custom {
         tr:nth-child(even) {
           background-color: unset !important;

@@ -190,6 +190,10 @@
         tr:nth-child(even) {
           background-color: #f0f3f5;
         }
+        tr > td:last-child {
+          color: #ed1c24;
+          font-weight: 600;
+        }
         tr:first-child {
           display: none;
         }
