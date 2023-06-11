@@ -4,6 +4,7 @@ import { DatXeRoutingModule } from './dat-xe-routing.module';
 import { DatXeComponent } from './dat-xe.component';
 import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BangGiaThueXeModule } from '../bang-gia-thue-xe/bang-gia-thue-xe.module';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
@@ -13,6 +14,7 @@ import { BangGiaThueXeModule } from '../bang-gia-thue-xe/bang-gia-thue-xe.module
     ReactiveFormsModule,
     BangGiaThueXeModule,
     FormsModule,
+    TranslateModule,
   ],
   declarations: [DatXeComponent],
 })

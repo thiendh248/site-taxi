@@ -5,19 +5,13 @@
       [class.title-wrapper-mobile]="mobileView"
     >
       <div class="title-left">
-        <span class="title"
-          >Thuê xe từ Đà nẵng đến Hội An hoặc ngược lại giá rẻ.
-        </span>
-        <span class="desc"
-          >Đón tại sân bay, Ga hoặc trung tâm thành phố Đà Nẵng đi Hội An, đến
-          các điểm tham quan Du lịch như: Ngũ Hành Sơn, Bà nà hills Đà Nẵng,
-          Vinpearl Nam Hội An…</span
-        >
+        <span class="title">{{ "footer.title" | translate }} </span>
+        <span class="desc">{{ "footer.desc" | translate }}</span>
       </div>
       <div class="title-right" style="cursor: pointer">
         <button routerLink="/dat-xe">
           <i class="fa-regular fa-clock"></i>
-          ĐẶT XE TRỰC TUYẾN
+          {{ "footer.footer1" | translate }}
         </button>
       </div>
     </div>
@@ -33,11 +27,11 @@
             margin-top: 10px;
             margin-bottom: 5px;
           "
-          >Thuê Xe Riêng Hội An, Thuê Xe Giá Rẻ – Chất Lượng Cao</span
+          >{{ "footer.footer2" | translate }}</span
         >
         <span style="margin-bottom: 5px"
-          ><i class="fa-solid fa-map-location-dot"></i> Hải Thượng Lãn Ông, Hội
-          An, Quảng Nam</span
+          ><i class="fa-solid fa-map-location-dot"></i>
+          {{ "footer.footer3" | translate }}</span
         >
         <span style="margin-bottom: 5px"
           ><i class="fa-solid fa-phone-volume"></i> 0935 850 076</span

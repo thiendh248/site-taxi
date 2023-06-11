@@ -1,28 +1,27 @@
 <div class="container">
   <div class="desc">
     <div class="title">
-      <span *ngIf="mobileView" class="text" style="text-align: center"
-        >Dịch vụ thuê xe <br />
-        Đà Nẵng - Hội An <br />
-        giá rẻ</span
-      >
-      <span *ngIf="!mobileView" class="text"
-        >Dịch vụ thuê xe Đà Nẵng - Hội An giá rẻ</span
-      >
+      <span *ngIf="mobileView" class="text" style="text-align: center">{{
+        "priceList.titleMobile" | translate
+      }}</span>
+      <span *ngIf="!mobileView" class="text">{{
+        "priceList.title" | translate
+      }}</span>
       <span class="value">www.xehoiandanang.vn</span>
     </div>
     <div class="contact">
       <span class="text">
-        Xe chất lượng cao – Đón và trả tận nơi – Wifi – Hỗ trợ 24/7 từ bộ phận
-        chăm sóc khách hàng của chúng tôi
+        {{ "priceList.desc" | translate }}
       </span>
       <div class="info">
-        <div class="text">Gọi để đặt xe:</div>
+        <div class="text">{{ "priceList.callMe" | translate }}</div>
         <a class="btn-phone" href="tel:0935850076">
           <span class="icon fa-solid fa-phone"></span>
           <span class="phone-number">0935 850 076</span>
         </a>
-        <button style="display: none">Đặt xe online</button>
+        <button style="display: none">
+          {{ "priceList.bookingOnline" | translate }}
+        </button>
       </div>
     </div>
   </div>
@@ -34,13 +33,12 @@
     >
       <div class="header">
         <div class="destination">
-          <span class="text">XE ĐÀ NẴNG</span>
+          <span class="text">{{ "priceList.priceList1" | translate }}</span>
           <span class="icon fa-solid fa-right-left"></span>
-          <span class="text">HỘI AN</span>
+          <span class="text">{{ "priceList.priceList2" | translate }}</span>
         </div>
         <div class="description">
-          ĐÓN TẠI SÂN BAY, GA TÀU LỬA, KHÁCH SẠN TỪ ĐÀ NẴNG ĐI HỘI AN HOẶC NGƯỢC
-          LẠI.
+          {{ "priceList.priceList3" | translate }}
         </div>
       </div>
       <div class="table">
@@ -51,18 +49,18 @@
             <th></th>
           </tr>
           <tr>
-            <td>Xe 4 chỗ</td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList4" | translate }}</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>250.000 vnđ</td>
           </tr>
           <tr>
-            <td>Xe 7 chỗ</td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList6" | translate }}</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>300.000 vnđ</td>
           </tr>
           <tr>
-            <td>Xe 16 chỗ</td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList7" | translate }}</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>450.000 vnđ</td>
           </tr>
         </table>
@@ -77,13 +75,12 @@
     <div [class.price-item-mobile]="mobileView" class="price-item col">
       <div class="header">
         <div class="destination">
-          <span class="text">XE ĐÀ NẴNG</span>
+          <span class="text">{{ "priceList.priceList1" | translate }}</span>
           <span class="icon fa-solid fa-right-left"></span>
-          <span class="text">VINPEARL NAM HỘI AN</span>
+          <span class="text">{{ "priceList.priceList8" | translate }}</span>
         </div>
         <div class="description">
-          ĐÓN TẠI SÂN BAY, GA TÀU LỬA, KHÁCH SẠN TỪ ĐÀ NẴNG ĐI BÀ NÀ HILLS. HOẶC
-          NGƯỢC LẠI.
+          {{ "priceList.priceList9" | translate }}
         </div>
       </div>
       <div class="table">
@@ -94,18 +91,18 @@
             <th></th>
           </tr>
           <tr>
-            <td>Xe 4 chỗ</td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList4" | translate }}</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>400.000 vnđ</td>
           </tr>
           <tr>
-            <td>Xe 7 chỗ</td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList6" | translate }}</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>450.000 vnđ</td>
           </tr>
           <tr>
-            <td>Xe 16 chỗ</td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList7" | translate }}</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>650.000 vnđ</td>
           </tr>
         </table>
@@ -126,12 +123,12 @@
     >
       <div class="header">
         <div class="destination">
-          <span class="text">XE HỘI AN</span>
+          <span class="text">{{ "priceList.priceList10" | translate }}</span>
           <span class="icon fa-solid fa-right-left"></span>
-          <span class="text">HUẾ</span>
+          <span class="text">{{ "priceList.priceList11" | translate }}</span>
         </div>
         <div class="description">
-          ĐÓN KHÁCH TẠI KHÁCH SẠN TỪ HỘI AN ĐI TP HUẾ. HOẶC NGƯỢC LẠI .
+          {{ "priceList.priceList12" | translate }}
         </div>
       </div>
       <div class="table table-custom">
@@ -143,13 +140,13 @@
           </tr>
           <tr>
             <td rowspan="2" style="text-align: center; vertical-align: middle">
-              Xe 4 chỗ
+              {{ "priceList.priceList4" | translate }}
             </td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>1.500.000 vnđ</td>
           </tr>
           <tr>
-            <td>2 chiều</td>
+            <td>{{ "priceList.priceList13" | translate }}</td>
             <td>2.000.000 vnđ</td>
           </tr>
           <tr>
@@ -161,24 +158,28 @@
                 background-color: #f0f3f5;
               "
             >
-              Xe 7 chỗ
+              {{ "priceList.priceList6" | translate }}
             </td>
-            <td style="background-color: #f0f3f5">1 chiều</td>
+            <td style="background-color: #f0f3f5">
+              {{ "priceList.priceList5" | translate }}
+            </td>
             <td style="background-color: #f0f3f5">1.800.000 vnđ</td>
           </tr>
           <tr>
-            <td style="background-color: #f0f3f5">2 chiều</td>
+            <td style="background-color: #f0f3f5">
+              {{ "priceList.priceList13" | translate }}
+            </td>
             <td style="background-color: #f0f3f5">2.400.000 vnđ</td>
           </tr>
           <tr>
             <td rowspan="2" style="text-align: center; vertical-align: middle">
-              Xe 16 chỗ
+              {{ "priceList.priceList7" | translate }}
             </td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>2.000.000 vnđ</td>
           </tr>
           <tr>
-            <td>2 chiều</td>
+            <td>{{ "priceList.priceList13" | translate }}</td>
             <td>3.000.000 vnđ</td>
           </tr>
         </table>
@@ -193,13 +194,12 @@
     <div class="price-item col" [class.price-item-mobile]="mobileView">
       <div class="header">
         <div class="destination">
-          <span class="text">XE ĐÀ NẴNG</span>
+          <span class="text">{{ "priceList.priceList1" | translate }}</span>
           <span class="icon fa-solid fa-right-left"></span>
-          <span class="text">HUẾ</span>
+          <span class="text">{{ "priceList.priceList11" | translate }}</span>
         </div>
         <div class="description">
-          ĐÓN TẠI SÂN BAY , GA TÀU LỬA, KHÁCH SẠN TỪ ĐÀ NẴNG ĐI TP HUẾ. HOẶC
-          NGƯỢC LẠI.
+          {{ "priceList.priceList14" | translate }}
         </div>
       </div>
       <div class="table table-custom">
@@ -211,13 +211,13 @@
           </tr>
           <tr>
             <td rowspan="2" style="text-align: center; vertical-align: middle">
-              Xe 4 chỗ
+              {{ "priceList.priceList4" | translate }}
             </td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>1.400.000 vnđ</td>
           </tr>
           <tr>
-            <td>2 chiều</td>
+            <td>{{ "priceList.priceList13" | translate }}</td>
             <td>1.900.000 vnđ</td>
           </tr>
           <tr>
@@ -229,24 +229,28 @@
                 background-color: #f0f3f5;
               "
             >
-              Xe 7 chỗ
+              {{ "priceList.priceList6" | translate }}
             </td>
-            <td style="background-color: #f0f3f5">1 chiều</td>
+            <td style="background-color: #f0f3f5">
+              {{ "priceList.priceList5" | translate }}
+            </td>
             <td style="background-color: #f0f3f5">1.700.000 vnđ</td>
           </tr>
           <tr>
-            <td style="background-color: #f0f3f5">2 chiều</td>
+            <td style="background-color: #f0f3f5">
+              {{ "priceList.priceList13" | translate }}
+            </td>
             <td style="background-color: #f0f3f5">2.200.000 vnđ</td>
           </tr>
           <tr>
             <td rowspan="2" style="text-align: center; vertical-align: middle">
-              Xe 16 chỗ
+              {{ "priceList.priceList7" | translate }}
             </td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>2.000.000 vnđ</td>
           </tr>
           <tr>
-            <td>2 chiều</td>
+            <td>{{ "priceList.priceList13" | translate }}</td>
             <td>2.800.000 vnđ</td>
           </tr>
         </table>
@@ -267,12 +271,12 @@
     >
       <div class="header">
         <div class="destination">
-          <span class="text">XE HỘI AN</span>
+          <span class="text">{{ "priceList.priceList10" | translate }}</span>
           <span class="icon fa-solid fa-right-left"></span>
-          <span class="text">BÀ NÀ HILLS</span>
+          <span class="text">{{ "priceList.priceList14" | translate }}</span>
         </div>
         <div class="description">
-          ĐÓN TẠI KHÁCH SẠN, TỪ HỘI AN ĐI BÀ NÀ HILL. HOẶC NGƯỢC LẠI.
+          {{ "priceList.priceList16" | translate }}
         </div>
       </div>
       <div class="table table-custom">
@@ -284,13 +288,13 @@
           </tr>
           <tr>
             <td rowspan="2" style="text-align: center; vertical-align: middle">
-              Xe 4 chỗ
+              {{ "priceList.priceList4" | translate }}
             </td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>600.000 vnđ</td>
           </tr>
           <tr>
-            <td>2 chiều</td>
+            <td>{{ "priceList.priceList13" | translate }}</td>
             <td>1.050.000 vnđ</td>
           </tr>
           <tr>
@@ -302,24 +306,28 @@
                 background-color: #f0f3f5;
               "
             >
-              Xe 7 chỗ
+              {{ "priceList.priceList6" | translate }}
             </td>
-            <td style="background-color: #f0f3f5">1 chiều</td>
+            <td style="background-color: #f0f3f5">
+              {{ "priceList.priceList5" | translate }}
+            </td>
             <td style="background-color: #f0f3f5">700.000 vnđ</td>
           </tr>
           <tr>
-            <td style="background-color: #f0f3f5">2 chiều</td>
+            <td style="background-color: #f0f3f5">
+              {{ "priceList.priceList13" | translate }}
+            </td>
             <td style="background-color: #f0f3f5">1.250.000 vnđ</td>
           </tr>
           <tr>
             <td rowspan="2" style="text-align: center; vertical-align: middle">
-              Xe 16 chỗ
+              {{ "priceList.priceList7" | translate }}
             </td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>900.000 vnđ</td>
           </tr>
           <tr>
-            <td>2 chiều</td>
+            <td>{{ "priceList.priceList13" | translate }}</td>
             <td>1.600.000 vnđ</td>
           </tr>
         </table>
@@ -334,12 +342,12 @@
     <div class="price-item col" [class.price-item-mobile]="mobileView">
       <div class="header">
         <div class="destination">
-          <span class="text">XE HỘI AN</span>
+          <span class="text">{{ "priceList.priceList10" | translate }}</span>
           <span class="icon fa-solid fa-right-left"></span>
-          <span class="text">VINPEARL NAM HỘI AN</span>
+          <span class="text">{{ "priceList.priceList8" | translate }}</span>
         </div>
         <div class="description">
-          ĐÓN TẠI KHÁCH SẠN TỪ HỘI AN ĐI VINPEARL NAM HỘI AN. HOẶC NGƯỢC LẠI.
+          {{ "priceList.priceList17" | translate }}
         </div>
       </div>
       <div class="table">
@@ -350,18 +358,18 @@
             <th></th>
           </tr>
           <tr>
-            <td>Xe 4 chỗ</td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList4" | translate }}</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>220.000 vnđ</td>
           </tr>
           <tr>
-            <td>Xe 7 chỗ</td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList6" | translate }}</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>270.000 vnđ</td>
           </tr>
           <tr>
-            <td>Xe 16 chỗ</td>
-            <td>1 chiều</td>
+            <td>{{ "priceList.priceList7" | translate }}</td>
+            <td>{{ "priceList.priceList5" | translate }}</td>
             <td>350.000 vnđ</td>
           </tr>
         </table>

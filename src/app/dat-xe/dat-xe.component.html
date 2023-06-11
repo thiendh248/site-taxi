@@ -6,11 +6,8 @@
   <div class="container order">
     <div class="order-left">
       <img width="100%" src="./content/images/banner.png" alt="" />
-      <span class="title">Đặt xe trực tuyến ngay hôm nay</span>
-      <span class="desc"
-        >Đặt xe du lịch tham quan các điểm Đà Nẵng – Hội An, đón tiễn sân bay,
-        xe 1 chiều… cực đơn giản</span
-      >
+      <span class="title"> {{ "order.title" | translate }} </span>
+      <span class="desc"> {{ "order.desc" | translate }} </span>
       <a class="btn-footer" href="tel:0935850076">
         <span class="icon fa-solid fa-phone"></span>
         <span class="phone-number">0935 850 076</span>
@@ -20,7 +17,10 @@
       <form>
         <div class="form-group row">
           <div class="col-sm-12">
-            <input placeholder="Họ & Tên" class="form-control" />
+            <input
+              placeholder="{{ 'order.order7' | translate }}"
+              class="form-control"
+            />
           </div>
         </div>
         <div class="row form-group">
@@ -28,7 +28,7 @@
             <input
               type="text"
               class="form-control"
-              placeholder="Số điện thoại"
+              placeholder="{{ 'order.order8' | translate }}"
             />
           </div>
           <div class="col">
@@ -37,26 +37,38 @@
         </div>
         <div class="row form-group">
           <div class="col">
-            <input type="text" class="form-control" placeholder="Nơi đón" />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="{{ 'order.order9' | translate }}"
+            />
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Nơi đến" />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="{{ 'order.order10' | translate }}"
+            />
           </div>
         </div>
         <div class="row form-group">
           <div class="col">
             <select class="form-control">
-              <option [defaultSelected]="true">Chọn loại xe</option>
-              <option>SEDEN 4 chỗ</option>
-              <option>SUV 7 chỗ</option>
-              <option>VAN 16 chỗ</option>
+              <option [defaultSelected]="true">
+                {{ "order.order1" | translate }}
+              </option>
+              <option>{{ "order.order2" | translate }}</option>
+              <option>{{ "order.order3" | translate }}</option>
+              <option>{{ "order.order4" | translate }}</option>
             </select>
           </div>
           <div class="col">
             <select class="form-control">
-              <option [defaultSelected]="true">Chọn chiều đi</option>
-              <option>1 chiều</option>
-              <option>2 chiều</option>
+              <option [defaultSelected]="true">
+                {{ "order.order5" | translate }}
+              </option>
+              <option>{{ "priceList.priceList5" | translate }}</option>
+              <option>{{ "priceList.priceList13" | translate }}</option>
             </select>
           </div>
         </div>
@@ -69,7 +81,7 @@
           <div class="col-sm-12">
             <textarea
               class="form-control"
-              placeholder="Bạn có muốn chúng tôi giúp gì không? (VD: số hiệu chuyến bay, đến sớm 15 phút)"
+              placeholder="{{ 'order.order11' | translate }}"
               aria-label="With textarea"
             ></textarea>
           </div>
@@ -83,7 +95,7 @@
             style="text-align: center"
             class="btn btn-danger"
           >
-            Đặt xe ngay
+            {{ "order.order6" | translate }}
           </button>
         </div>
       </form>

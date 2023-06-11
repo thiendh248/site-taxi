@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -9,8 +10,8 @@ import { Router } from '@angular/router';
 export class AppComponent implements OnInit {
   title = 'Xe Hội An - Đà Nẵng';
 
-  constructor(private router: Router) {}
-
-  ngOnInit(): void {
+  constructor(private translate: TranslateService) {
+    this.translate.setDefaultLang('vi'); // Ngôn ngữ mặc định
   }
+  ngOnInit(): void {}
 }

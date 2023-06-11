@@ -5,27 +5,67 @@
   <div class="navbar-main">
     <div class="navbar-item" routerLink="/home" [routerLinkActive]="'active'">
       <span style="margin-right: 5px" class="fa-solid fa-house"></span>
-      <span>HOME</span>
+      <span>{{ "navbar.home" | translate }}</span>
     </div>
     <div
       class="navbar-item"
       routerLink="bang-gia-thue-xe"
       [routerLinkActive]="'active'"
     >
-      BẢNG GIÁ THUÊ XE
+      {{ "navbar.priceList" | translate }}
     </div>
     <div
       class="navbar-item"
       routerLink="gioi-thieu"
       [routerLinkActive]="'active'"
     >
-      GIỚI THIỆU
+      {{ "navbar.introduce" | translate }}
     </div>
     <div class="navbar-item" routerLink="dat-xe" [routerLinkActive]="'active'">
-      ĐẶT XE
+      {{ "navbar.booking" | translate }}
     </div>
   </div>
-<!--  <div class="navbar-left"></div>-->
+  <div class="navbar-left">
+    <div ngbDropdown container="body">
+      <div ngbDropdownToggle>
+        <img
+          class="non-separator"
+          *ngIf="currentLanguage === 'en'"
+          src="./content/images/en.svg"
+          alt="icon-english"
+          height="18"
+          width="18"
+        />
+        <img
+          class="non-separator"
+          *ngIf="currentLanguage === 'vi'"
+          src="./content/images/vi.png"
+          alt="icon-vietnamese"
+        />
+      </div>
+      <ul ngbDropdownMenu class="dropdown-menu--pretty">
+        <li
+          *ngFor="let language of languages"
+          (click)="changeLanguage(language)"
+          ngbDropdownItem
+        >
+          <img
+            *ngIf="language === 'en'"
+            style="padding-right: 3px"
+            src="./content/images/en.svg"
+            alt="icon-english"
+          />
+          <img
+            *ngIf="language === 'vi'"
+            style="padding-right: 5px"
+            src="./content/images/vi.png"
+            alt="icon-vietnamese"
+          />
+          <span>{{ "language." + language | translate }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 <div *ngIf="mobileView" class="container navbar-mobile">
   <div class="left" (click)="onHideMenuBarMobile()">
@@ -34,7 +74,47 @@
   <div class="logo">
     <img src="./content/images/logo.jpg" alt="" />
   </div>
-  <div class="right"></div>
+  <div class="right">
+    <div ngbDropdown container="body">
+      <div ngbDropdownToggle>
+        <img
+          class="non-separator"
+          *ngIf="currentLanguage === 'en'"
+          src="./content/images/en.svg"
+          alt="icon-english"
+          height="18"
+          width="18"
+        />
+        <img
+          class="non-separator"
+          *ngIf="currentLanguage === 'vi'"
+          src="./content/images/vi.png"
+          alt="icon-vietnamese"
+        />
+      </div>
+      <ul ngbDropdownMenu class="dropdown-menu--pretty">
+        <li
+          *ngFor="let language of languages"
+          (click)="changeLanguage(language)"
+          ngbDropdownItem
+        >
+          <img
+            *ngIf="language === 'en'"
+            style="padding-right: 3px"
+            src="./content/images/en.svg"
+            alt="icon-english"
+          />
+          <img
+            *ngIf="language === 'vi'"
+            style="padding-right: 5px"
+            src="./content/images/vi.png"
+            alt="icon-vietnamese"
+          />
+          <span>{{ "language." + language | translate }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 <div
   *ngIf="mobileView"

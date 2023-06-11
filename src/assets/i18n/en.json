@@ -1,0 +1,89 @@
+{
+  "language": {
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "navbar": {
+    "home": "Home",
+    "priceList": "Price List",
+    "introduce": "Introduce",
+    "booking": "Booking"
+  },
+  "banner": {
+    "titleMobile": "Airport Da Nang - Hoi An",
+    "title": "Airport Da Nang - Hoi An",
+    "desc1": "Transfer and round trip.",
+    "desc2": "Book in advance & pay later.",
+    "desc3": "Keep your travel plans flexible - book and pay today."
+  },
+  "priceList": {
+    "title": "Cheap car rental service Da Nang - Hoi An",
+    "titleMobile": "Cheap car rental service Da Nang - Hoi An",
+    "desc": "High quality car – Pick up and drop off – Wifi – 24/7 support from our customer care department",
+    "callMe": "Call to book a car:",
+    "bookingOnline": "Book a car online",
+    "priceList1": "DANANG VEHICLES",
+    "priceList2": "HOI AN",
+    "priceList3": "Pick up at AIRPORT, TRAIN STATION, HOTEL FROM DA NANG TO HOI AN OR vice versa.",
+    "priceList4": "4 seater car",
+    "priceList5": "One way",
+    "priceList6": "7 seater car",
+    "priceList7": "16 seater car",
+    "priceList8": "VINPEARL SOUTH HOI AN",
+    "priceList9": "Pick up at AIRPORT, TRAIN STATION, HOTEL FROM DA NANG TO BA Na HILLS. OR vice versa.",
+    "priceList10": "HOI AN VEHICLES",
+    "priceList11": "HUE",
+    "priceList12": "WELCOME AT THE HOTEL FROM HOI AN TO HUE CITY. OR vice versa.",
+    "priceList13": "Two way",
+    "priceList14": "Pick up at AIRPORT, TRAIN STATION, HOTEL FROM DA NANG TO HUE CITY. OR vice versa.",
+    "priceList15": "BA NA HILLS",
+    "priceList16": "Pick up at the hotel, FROM HOI AN TO BA NA HILL. OR vice versa.",
+    "priceList17": "Pick up at the hotel FROM HOI AN TO VINPEARL NAM HOI AN. OR vice versa."
+  },
+  "order": {
+    "title": "Book your car online today",
+    "desc": "Booking a tourist car to visit Da Nang - Hoi An spots, airport pick-up and drop-off, one-way car... very simple",
+    "order1": "Select vehicle type",
+    "order2": "SEDEN 4 seats",
+    "order3": "SUV 7 seats",
+    "order4": "VAN 16 seats",
+    "order5": "Choose the way to go",
+    "order6": "Book a car now",
+    "order7": "Surname & First Name",
+    "order8": "Phone number",
+    "order9": "Pick up place",
+    "order10": "Destination",
+    "order11": "Would you like us to help? (Example: flight number, arrive 15 minutes early)"
+  },
+  "footer": {
+    "title": "Cheap car rental from Da Nang to Hoi An or vice versa.",
+    "desc": "Pick up at the airport, train station or Danang city center to Hoi An, to tourist attractions such as Ngu Hanh Son, Ba Na hills Da Nang, Vinpearl Nam Hoi An...",
+    "footer1": "ONLINE BOOKING",
+    "footer2": "Hoi An Private Car Rental, Cheap Car Rental – High Quality",
+    "footer3": "Hai Thuong Lan Ong, Hoi An, Quang Nam"
+  },
+  "introduce": {
+    "intro1": "B&M TRAVEL COMPANY LIMITED",
+    "intro2": "to be",
+    "intro3": "travel car company",
+    "intro4": "Da Nang, Hoi An, Ba Na, Cu Lao Cham, My Son, Hai Van Pass, Lang Co, Hue, Quang Ngai…,",
+    "intro5": "With 20 cars from 4 to 16 seats new, luxurious fully meet for solo travelers, guests traveling in groups. Team of experienced drivers, friendly, fun.",
+    "intro6": "Besides, our company specializes in organizing eco-tours such as Tra Que Vegetable Village Tour, Thanh Nam Fishing Village Tour, Thanh Ha Pottery Village & Kim Bong Carpentry Village...",
+    "intro7": "Customer benefits",
+    "intro8": "when using the services of B&M Travel Service Co., Ltd",
+    "intro9": "The price is only from 250,000 VND for a 4-seater car; 300,000 7-seat cars; 450,000 16-seat cars. B&M Travel Service - Travel Company Limited is committed to providing you with the most effective, economical and safe ways to travel from Da Nang to Hoi An and vice versa.",
+    "intro10": "Four-Seater Vehicles:",
+    "intro11": "Our 4-seater car with the latest car models, along with the most modern facilities with a large number of customers, fully meets the requirements of customers and wishes to bring you a professional service with vehicles such as: Vios, Kia Cerato, Elantra...",
+    "intro12": "Car Series 7 Seats:",
+    "intro13": "7-seater cars such as: Fortuner, Mitsubishi, Xpander, 7 seats with high-class facilities, with long-term experienced drivers, we bring the safest service to customers.",
+    "intro14": "16-Seater Car Series :",
+    "intro15": "The 16-seat car is used to transport a large number of customers who can be tourists of companies. There are the following vehicles: Ford Transit, Hyundai Solati…",
+    "intro16": "MAP",
+    "intro17": "PROFESSIONAL, PRESTIGE CAR RENTAL SERVICES",
+    "intro18": "Professional from receiving customer information to consulting and providing car rental services, always ensuring on time, experienced drivers, putting the safety and interests of customers first.",
+    "intro19": "NEW, MODERN, FULL FACILITIES AIRPORT TRANSFER",
+    "intro20": "Always innovating, always listening to customers, so we always bring you the most modern means of transportation to meet the increasing needs of customers.",
+    "intro21": "AIRPORT CAR RENTAL WITH EXPERIENCE, ENJOYED STAFF",
+    "intro22": "From the consultant to the driver, all of them have years of experience and always put the heart first. Drivers always put the safety of customers first and serve customers with the most respectful and enthusiastic attitude. Always bring satisfaction to customers."
+  }
+}

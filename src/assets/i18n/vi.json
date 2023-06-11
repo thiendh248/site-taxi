@@ -1,0 +1,89 @@
+{
+  "language": {
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "navbar": {
+    "home": "Trang chủ",
+    "priceList": "Bảng giá thuê xe",
+    "introduce": "Giới thiệu",
+    "booking": "Đặt xe"
+  },
+  "banner": {
+    "titleMobile": "Sân bay Đà Nẵng - Hội An",
+    "title": "Sân bay Đà Nẵng - Hội An",
+    "desc1": "Đưa đón và khứ hồi.",
+    "desc2": "Đặt lịch trước & thanh toán sau.",
+    "desc3": "Giữ kế hoạch du lịch linh hoạt - đặt chỗ và không phải thanh toán ngày hôm nay."
+  },
+  "priceList": {
+    "title": "Dịch vụ thuê xe Đà Nẵng - Hội An giá rẻ",
+    "titleMobile": "Dịch vụ thuê xe Đà Nẵng - Hội An giá rẻ",
+    "desc": "Xe chất lượng cao – Đón và trả tận nơi – Wifi – Hỗ trợ 24/7 từ bộ phận chăm sóc khách hàng của chúng tôi",
+    "callMe": "Gọi để đặt xe:",
+    "bookingOnline": "Đặt xe online",
+    "priceList1": "XE ĐÀ NẴNG",
+    "priceList2": "HỘI AN",
+    "priceList3": "ĐÓN TẠI SÂN BAY, GA TÀU LỬA, KHÁCH SẠN TỪ ĐÀ NẴNG ĐI HỘI AN HOẶC NGƯỢC LẠI.",
+    "priceList4": "Xe 4 chỗ",
+    "priceList5": "1 chiều",
+    "priceList6": "Xe 7 chỗ",
+    "priceList7": "Xe 16 chỗ",
+    "priceList8": "VINPEARL NAM HỘI AN",
+    "priceList9": "ĐÓN TẠI SÂN BAY, GA TÀU LỬA, KHÁCH SẠN TỪ ĐÀ NẴNG ĐI BÀ NÀ HILLS. HOẶC NGƯỢC LẠI.",
+    "priceList10": "XE HỘI AN",
+    "priceList11": "HUẾ",
+    "priceList12": "ĐÓN KHÁCH TẠI KHÁCH SẠN TỪ HỘI AN ĐI TP HUẾ. HOẶC NGƯỢC LẠI.",
+    "priceList13": "2 chiều",
+    "priceList14": "ĐÓN TẠI SÂN BAY , GA TÀU LỬA, KHÁCH SẠN TỪ ĐÀ NẴNG ĐI TP HUẾ. HOẶC NGƯỢC LẠI.",
+    "priceList15": "BÀ NÀ HILLS",
+    "priceList16": "ĐÓN TẠI KHÁCH SẠN, TỪ HỘI AN ĐI BÀ NÀ HILL. HOẶC NGƯỢC LẠI.",
+    "priceList17": "ĐÓN TẠI KHÁCH SẠN TỪ HỘI AN ĐI VINPEARL NAM HỘI AN. HOẶC NGƯỢC LẠI."
+  },
+  "order": {
+    "title": "Đặt xe trực tuyến ngay hôm nay",
+    "desc": "Đặt xe du lịch tham quan các điểm Đà Nẵng – Hội An, đón tiễn sân bay, xe 1 chiều… cực đơn giản",
+    "order1": "Chọn loại xe",
+    "order2": "SEDEN 4 chỗ",
+    "order3": "SUV 7 chỗ",
+    "order4": "VAN 16 chỗ",
+    "order5": "Chọn chiều đi",
+    "order6": "Đặt xe ngay",
+    "order7": "Họ & Tên",
+    "order8": "Số điện thoại",
+    "order9": "Nơi đón",
+    "order10": "Nơi đến",
+    "order11": "Bạn có muốn chúng tôi giúp gì không? (VD: số hiệu chuyến bay, đến sớm 15 phút)"
+  },
+  "footer": {
+    "title": "Thuê xe từ Đà nẵng đến Hội An hoặc ngược lại giá rẻ.",
+    "desc": "Đón tại sân bay, Ga hoặc trung tâm thành phố Đà Nẵng đi Hội An, đến các điểm tham quan Du lịch như: Ngũ Hành Sơn, Bà nà hills Đà Nẵng, Vinpearl Nam Hội An…",
+    "footer1": "ĐẶT XE TRỰC TUYẾN",
+    "footer2": "Thuê Xe Riêng Hội An, Thuê Xe Giá Rẻ – Chất Lượng Cao",
+    "footer3": "Hải Thượng Lãn Ông, Hội An, Quảng Nam"
+  },
+  "introduce": {
+    "intro1": "CÔNG TY TNHH MTV B&M TRAVEL",
+    "intro2": "là",
+    "intro3": "công ty chuyên xe du lịch",
+    "intro4": "Đà Nẵng, Hội An, Bà Nà, Cù Lao Chàm, Mỹ Sơn, Đèo Hải Vân, Lăng Cô, Huế, Quảng Ngãi…,",
+    "intro5": "Với 20 chiếc xe từ 4-16 chỗ ngồi đời mới, sang trọng đáp ứng đầy đủ cho khách du lịch lẻ, khách đi theo đoàn. Đội ngũ tài xế nhiều kinh nghiệm, thân thiện, vui vẻ.",
+    "intro6": "Bên cạnh đó, Công Ty chúng tôi chuyên tổ chức các tour du lịch sinh thái như Tour du lịch Làng rau Trà Quế, Tour du lịch Làng chài Thanh Nam, Làng gốm Thanh Hà & Làng mộc Kim Bồng…",
+    "intro7": "Những lợi ích của khách hàng",
+    "intro8": "khi sử dụng dịch vụ của Công Ty TNHH MTV Dịch Vụ Du Lịch B&M Travel",
+    "intro9": "Giá chỉ từ 250.000 vnđ xe 4 chỗ; 300.000 xe 7 chỗ ; 450.000 xe 16 chỗ. Công Ty TNHH MTV Dịch Vụ – Du Lịch B&M Travel xin cam kết sẽ cung cấp cho các bạn các phương thức di chuyển từ Đà Nẵng đi Hội An và ngược lại một cách hiệu quả, tiết kiệm và an toàn nhất.",
+    "intro10": "Dòng Xe 4 Chỗ :",
+    "intro11": "Xe 4 chỗ của chúng tôi với các dòng xe mới nhất, cùng với các tiện nghi hiện đại nhất với số lượng lớn nhằm đáp ứng đầy đủ các yêu cầu của khách hàng và mong muốn mang đến cho quý khách một dịch vụ chuyên nghiệp với các loại xe như : Vios , Kia Cerato , Elantra…",
+    "intro12": "Dòng Xe 7 Chỗ :",
+    "intro13": "Xe 7 chỗ như: Fortuner , Mitsubishi , Xpander, 7 chỗ tiện nghi cao cấp, với lái xe kinh nghiệm lâu năm chúng tôi mang đến dịch vụ an toàn nhất cho khách hàng.",
+    "intro14": "Dòng Xe 16 Chỗ :",
+    "intro15": "Xe 16 chỗ dùng để đưa đón một nhóm số lượng lớn khách hàng có thể là các khách du lịch của các công ty. có những loại xe sau: Xe Ford Transit, Hyundai Solati…",
+    "intro16": "BẢN ĐỒ",
+    "intro17": "DỊCH VỤ CHO THUÊ XE ĐƯA ĐÓN SÂN BAY CHUYÊN NGHIỆP, UY TÍN",
+    "intro18": "Chuyên nghiệp từ việc tiếp nhận thông tin khách hàng đến việc tư vấn và cung cấp dịch vụ cho thuê xe, luôn luôn đảm bảo đúng thời gian, tài xế kinh nghiệm, đặt sự an toàn và lợi ích của khách hàng lên đầu.",
+    "intro19": "XE ĐƯA ĐÓN SÂN BAY ĐỜI MỚI, HIỆN ĐẠI, TIỆN NGHI ĐẦY ĐỦ",
+    "intro20": "Luôn luôn đổi mới, luôn luôn lắng nghe khách hàng nên chúng tôi luôn luôn mang đến cho bạn phương tiện đưa đón hiện đại nhất để đáp ứng nhu cầu ngày càng cao của khách hàng.",
+    "intro21": "THUÊ XE SÂN BAY VỚI ĐỘI NGŨ NHÂN VIÊN KINH NGHIỆM, TẬN TÌNH",
+    "intro22": "Từ nhân viên tư vấn đến nhân viên lái xe đều có kinh nghiệm lâu năm luôn luôn đặt chữ tâm lên hàng đầu. Nhân viên lái xe luôn đặt sự an\n          toàn của khách hàng trên hết và phục vụ khách hàng với thái độ tôn trọng, nhiệt tình nhất. Luôn mang đến sự hài lòng đến khách hàng."
+  }
+}
