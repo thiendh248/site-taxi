@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContainerComponent } from './container/container.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
+import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     ContainerComponent,
   ],
-  imports: [BrowserModule, NgOptimizedImage, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, NgOptimizedImage, AppRoutingModule, FormsModule,NgbModule],
   providers: [],
   bootstrap: [AppComponent],
   exports: [FooterComponent],

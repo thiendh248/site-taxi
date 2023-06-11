@@ -1,6 +1,6 @@
-<div *ngIf="!mobileView" class="navbar container">
+<div *ngIf="!mobileView" class="navbar-wrapper container">
   <div class="logo">
-    <img src="./content/images/logo.png" alt="" />
+    <img src="./content/images/logo.jpg" alt="" />
   </div>
   <div class="navbar-main">
     <div class="navbar-item" routerLink="/home" [routerLinkActive]="'active'">
@@ -25,14 +25,14 @@
       ĐẶT XE
     </div>
   </div>
-  <div class="navbar-left"></div>
+<!--  <div class="navbar-left"></div>-->
 </div>
 <div *ngIf="mobileView" class="container navbar-mobile">
   <div class="left" (click)="onHideMenuBarMobile()">
     <i class="fa-solid fa-bars"></i>
   </div>
   <div class="logo">
-    <img src="./content/images/logo.png" alt="" />
+    <img src="./content/images/logo.jpg" alt="" />
   </div>
   <div class="right"></div>
 </div>

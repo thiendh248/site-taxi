@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { DeviceDetectorService } from 'ngx-device-detector';
 
 @Component({

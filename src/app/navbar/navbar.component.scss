@@ -4,28 +4,32 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 56px;
+  //height: 56px;
   z-index: 500;
   //margin-bottom: 56px;
   z-index: 999;
   background-color: white;
 }
-.navbar {
+.navbar-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding-left: 24px;
-  padding-right: 24px;
   border-bottom: 1px solid #dfe1e6;
+  padding: 15px 24px;
+  position: relative;
+
   .logo {
-    width: 20%;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 0
+  ;
     img {
-      width: 70px;
+      height: 56px;
     }
   }
   .navbar-main {
-    flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -33,10 +37,11 @@
       color: #001952;
       font-weight: 700;
       cursor: pointer;
+      margin-right: 40px;
       &.active {
         color: #ed1c24;
         border-bottom: 1px solid #dfe1e6;
-        padding-bottom: 5px;
+        //padding-bottom: 5px;
       }
     }
   }

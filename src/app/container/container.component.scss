@@ -65,6 +65,7 @@
           border-radius: 10px;
           text-decoration: none;
           color: white;
+          border: none;
           &:not(:last-child) {
             margin-right: 8px;
           }
@@ -289,6 +290,10 @@
     }
   }
   &.container-body-mobile {
-    margin-top: 72px;
+    //margin-top: 72px;
   }
+}
+
+::ng-deep .modal-backdrop.fade.show {
+  display: none;
 }
