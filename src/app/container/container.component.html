@@ -21,28 +21,13 @@
       </a>
       <div class="list-social-media">
         <a href="https://zalo.me/0935850076" class="social-media-item">ZALO</a>
-        <button class="social-media-item" (click)="openModal()">KAKAOTALK</button>
-        <button class="social-media-item">WHATSAPP</button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-          Launch static backdrop modal
+        <button class="social-media-item" (click)="openModal('kakaotalk')">
+          KAKAOTALK
         </button>
-        <div class="modal fade" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                ...
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
-            </div>
-          </div>
-        </div>      </div>
+        <button class="social-media-item" (click)="openModal('whatsapp')">
+          WHATSAPP
+        </button>
+      </div>
     </div>
   </div>
   <div class="container">
@@ -533,18 +518,3 @@
     </div>
   </div>
 </div>
-
-<ng-template #myModal let-modal>
-  <div class="modal-header">
-    <h4 class="modal-title">Modal Title</h4>
-    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  <div class="modal-body">
-    Modal content goes here.
-  </div>
-  <div class="modal-footer">
-    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Close click')">Close</button>
-  </div>
-</ng-template>
